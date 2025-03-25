@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: Build 360T7
+name: Build 360T7 Lucky
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   CONFIG_FILE: 360t7-lucky.config
   DIY_P1_SH: diy-part1-lucky.sh
   DIY_P2_SH: diy-part2.sh
-  RELEASE_TXT: release.txt
+  RELEASE_TXT: release-lucky.txt
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
@@ -147,7 +147,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: release.txt
+        body_path: release-lucky.txt
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
