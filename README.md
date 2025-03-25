@@ -1,5 +1,7 @@
 云编译7981固件
 
+https://github.com/padavanonly/immortalwrt-mt798x-24.10
+
 237大佬immortalwrt24.10源码编译路由器固件。
 
 使用p3terx云编译模板
