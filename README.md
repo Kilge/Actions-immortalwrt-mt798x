@@ -1,4 +1,4 @@
-云编译MT798x固件
+云编译mt798x固件
 
 https://github.com/padavanonly/immortalwrt-mt798x-24.10
 
