@@ -21,8 +21,6 @@ sed -i 's/192.168.6.1/192.168.100.1/g' package/base-files/files/bin/config_gener
 
 # Modify filename, add date prefix
 sed -i 's/IMG_PREFIX:=/IMG_PREFIX:=$(shell date +"%Y%m%d")-/1' include/image.mk
-#临时解决rust问题
-sed -i 's/ci-llvm=true/ci-llvm=false/g' feeds/packages/lang/rust/Makefile
 
 # 覆盖distfeeds.conf
 mkdir -p files/etc/opkg
