@@ -4,8 +4,6 @@ https://github.com/padavanonly/immortalwrt-mt798x-24.10
 
 237大佬immortalwrt24.10源码编译路由器固件。
 
-包含：openclash插件
-
 使用p3terx云编译模板
 [教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
